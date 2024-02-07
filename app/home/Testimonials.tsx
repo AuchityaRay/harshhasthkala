@@ -18,7 +18,7 @@ export function Testimonials() {
       opts={{
         align: "center",
       }}
-      className="w-full max-w-6xl"
+      className="w-10/12 max-w-6xl"
     >
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (

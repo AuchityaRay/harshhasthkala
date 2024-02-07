@@ -3,7 +3,7 @@ import Footer from '@/components/shared/Footer';
 import Navbar from '@/components/shared/Navbar';
 import { useState } from 'react';
 
-const InsuranceFAQ = () => {
+const page = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const faqData = [
@@ -64,4 +64,4 @@ const InsuranceFAQ = () => {
   );
 };
 
-export default InsuranceFAQ;
+export default page;

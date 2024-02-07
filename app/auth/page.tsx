@@ -18,9 +18,9 @@ export default function page() {
   return (
     <>
      <Navbar/>
-      <div className="container h-[800px] flex justify-center items-center lg:items-start flex-col lg:flex-row">
+      <div className="container h-[800px] flex md:justify-center  items-center lg:items-start flex-col lg:flex-row">
         <div className="flex lg:items-start justify-center md:w-6/12">
-            <img src="/assets/image 1.png" alt="" className='w-96 lg:mt-40'/>
+            <img src="/assets/image 1.png" alt="" className='w-96 md:mt-40 mt-20 '/>
         </div>
         <div className="lg:ms-60 mt-20 md:w-6/12 ">
         <Tabs defaultValue="signin" className="border rounded-lg md:w-[400px]">
